@@ -22,9 +22,10 @@ Recursos:
   - Spline Quadrática
 - Ajuste de curva
   - Mínimos quadrados
+- Geração de formulas Latex
 - Exemplos de uso para cada implementação
 
-Você pode ver o [Notebook pre executado](https://github.com/diefesson/ufc-cn/blob/amostras_executadas/src/main.ipynb) com as amostras de código
+Você pode ver o [Notebook pre executado](https://github.com/diefesson/ufc-cn/blob/exemplos_executados/src/main.ipynb) com as amostras de código
 
 ## Configuração do projeto
 
