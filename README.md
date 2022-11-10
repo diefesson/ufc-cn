@@ -2,6 +2,8 @@
 
 Coleção das implementações dos diversos algoritmos e funções vistos durante a disciplina de calculo numérico na forma de um único notebook Jupyter facilmente navegável
 
+**AVISO PARA PROFESSOR:** as branches de prova são [prova_1](https://github.com/diefesson/ufc-cn/blob/prova_1/src/main.ipynb) e [prova_2](https://github.com/diefesson/ufc-cn/blob/prova_2/src/main.ipynb)
+
 Recursos:
 
 - Calculo do erro
