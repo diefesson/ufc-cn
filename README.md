@@ -31,20 +31,24 @@ Você pode ver o [Notebook pre executado](https://github.com/diefesson/ufc-cn/bl
 
 ## Configuração do projeto
 
-Windows
+O projeto foi migrado para fazer uso do gerenciador de ambientes virtuais [pipenv](https://pypi.org/project/pipenv), substituindo o venv, exercendo maior controle sobre as dependências e evitando que coisas quebrem misteriosamente 🙃.
 
-~~~
-python -m venv venv
-.\venv\Scripts\activate.bat
-pip install -r requirements.txt
-jupyter-notebook
-~~~
+Instale o pipenv.
 
-Linux
+~~~~
+pip install pipenv
+~~~~
 
-~~~
-python -m venv venv
-./venv/bin/activate
-pip install -r requirements.txt
-jupyter-notebook
-~~~
+Crie o ambiente virtual e instale as dependências do projeto
+
+~~~~
+pipenv install --dev
+~~~~
+
+É recomendada a utilização do VS Code com a extensão [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+
+Mas alternativamente, pode ser criada uma instância do Jupyter Lab
+
+~~~~
+pipenv run jupyter lab
+~~~~

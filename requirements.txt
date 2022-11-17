@@ -1,5 +1,0 @@
-ipykernel==6.16.0
-ipython==8.5.0
-ipywidgets==8.0.2
-matplotlib==3.6.1
-numpy==1.23.3
