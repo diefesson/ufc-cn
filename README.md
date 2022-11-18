@@ -24,6 +24,12 @@ Recursos:
   - Spline Quadrática
 - Ajuste de curva
   - Mínimos quadrados
+- Integração numérica
+  - Método do retângulo esquerdo e direito
+  - Método do ponto central
+  - Método do trapézio
+  - Método de 1/3 Simpson
+  - Método composto genérico
 - Geração de formulas Latex
 - Exemplos de uso para cada implementação
 
