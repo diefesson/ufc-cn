@@ -33,6 +33,12 @@ Recursos:
   - Método de 1/3 Simpson
   - Estimativa do erro
   - Descoberta do espaçamento para dada precisão
+- Problema do valor inicial
+  - Implementação generica de Runge-Kutta
+  - Tabela de Euler
+  - Tabela de Euler modificado
+  - tabela do ponto central
+  - tabela de Runge-Kutta de 4º ordem
 - Geração de formulas Latex
 - Exemplos de uso para cada implementação
 
@@ -51,7 +57,7 @@ pip install pipenv
 Crie o ambiente virtual e instale as dependências do projeto
 
 ~~~~
-pipenv install --dev
+pipenv sync --dev
 ~~~~
 
 É recomendada a utilização do VS Code com a extensão [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
